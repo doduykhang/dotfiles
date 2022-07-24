@@ -1,0 +1,8 @@
+
+xmonad.hs:183:12: warning: [-Wdeprecations]
+    In the use of ‘spacingWithEdge’
+    (imported from XMonad.Layout.Spacing):
+    Deprecated: "Use spacingRaw instead."
+    |
+183 | myLayout = spacingWithEdge 5 (avoidStruts (tiled)) ||| Full
+    |            ^^^^^^^^^^^^^^^
